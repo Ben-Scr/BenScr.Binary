@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>BenScr.Binary</id><version>1.0.0</version><authors>Ben Schneider</authors>
+    <description>C++20 header-only bounded binary readers and writers with endian integers, IEEE 754 transport, canonical ULEB128, ZigZag, borrowed slices, and atomic failure guarantees.</description>
+    <projectUrl>https://github.com/Ben-Scr/BenScr.Binary</projectUrl>
+    <repository type="git" url="https://github.com/Ben-Scr/BenScr.Binary" commit="$commit$" />
+    <license type="file">LICENSE.txt</license><readme>README.md</readme><icon>icon.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance><tags>native binary endian varint serialization cpp20</tags>
+  </metadata>
+  <files>
+    <file src="include\benscr\binary\binary.hpp" target="include\benscr\binary" />
+    <file src="package\BenScr.Binary.props" target="build\native" />
+    <file src="package\BenScr.Binary.targets" target="build\native" />
+    <file src="LICENSE.txt" target="" /><file src="README.md" target="" />
+    <file src="branding\BenScr_Icon_Master.png" target="icon.png" />
+  </files>
+</package>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\include\benscr\binary\binary.hpp" />
+  </ItemGroup>
+  <Target Name="BenScrBinaryValidateHeader" BeforeTargets="ClCompile">
+    <Error Condition="!Exists('$(MSBuildThisFileDirectory)..\..\include\benscr\binary\binary.hpp')" Text="BenScr.Binary header is missing. Restore the native NuGet package before building." />
+  </Target>
+</Project>
