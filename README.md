@@ -1,5 +1,7 @@
 # BenScr.Binary
 
+Created by Ben Schneider — https://github.com/Ben-Scr
+
 Bounded C++20 binary readers and writers for file headers, network payloads and compact records.
 Read or write fixed-width integers in either byte order, IEEE 754 floats, canonical unsigned LEB128
 and ZigZag signed varints. Borrow slices without copying or allocating storage.
